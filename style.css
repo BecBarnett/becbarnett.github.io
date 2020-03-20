@@ -8,38 +8,80 @@ and open the template in the editor.
     Author     : BEC
 */
 
+html {
+    background: #eee;   
+    color: #654321;
+}
+
+body {
+   
+}
+
+
+#Title{
+    font-family: Arial-black;
+    font-size: 40px;
+
+}
+
 img {
-    padding:5px;
+    padding:30px;
     border:12px #9D91A3;
     border-style: dashed;
     background-color: #eee;
-    float: left;
+    float: left; 
+    margin-right: 2em;
+    margin-bottom: 2em;
 }
 
 #mainArea {
 
     width: 66%;
-    margin: 10%;
-    border: 30px solid #AD91A3;
+    margin: 1% auto;
+    border: 100px solid #AD91A3;
     padding: 30px;
+    background: #C49792;
     
+}
+
+#profilePic{
+    padding:30px;
+    border:12px;
+    background-color: #eee;
+    border-style: none;
+    float: left; 
+    margin-right: 2em;
+    margin-bottom: 2em;
 }
 
 .sectionTitle {
 
-    border: 30px;
     font-family: Arial;
-    font-size: 14px;
+    font-size: 22px;
+    margin: 30px;
+    background: #C49792;
 
 }
 
 .sectionContent {
 
-    border: 30px;
+    background: #C49792;
+    color: #654321;
+    
 }
 
 .subSectionTitle {
     font-family: Arial;
-    font-size: 12px;
+    font-size: 18px;
+    margin: 30px;
+    background: #C49792;
 
+}
+
+p {
+    line-height: 1.6em;
+    margin-bottom: 14px;
+    background: #C49792;
+    margin: 30px;
+    font-size: 30px;
 }
