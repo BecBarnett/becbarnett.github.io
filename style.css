@@ -18,10 +18,25 @@ body {
 }
 
 
-#Title{
+#title{
     font-family: Arial-black;
-    font-size: 40px;
+    font-size: 25px;
 
+}
+
+p {
+    line-height: 1.6em;
+    margin-bottom: 16px;
+    background: #C49792;
+    margin: 30px;
+    font-size: 18px;
+}
+
+#introPara{
+    line-height: 2em;
+    background: #C49792;
+    margin-bottom:  30px;
+    font-size: 20px;    
 }
 
 img {
@@ -72,16 +87,16 @@ img {
 
 .subSectionTitle {
     font-family: Arial;
-    font-size: 18px;
+    font-size: 20px;
     margin: 30px;
     background: #C49792;
+    font-style: italic;
 
 }
 
-p {
-    line-height: 1.6em;
-    margin-bottom: 14px;
-    background: #C49792;
-    margin: 30px;
-    font-size: 30px;
+
+
+#intro {
+    
+    
 }
