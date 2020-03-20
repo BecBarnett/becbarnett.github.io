@@ -13,4 +13,5 @@ img {
     border:12px #1c87c9;
     border-style: dashed;
     background-color: #eee;
+    float: left;
 }
